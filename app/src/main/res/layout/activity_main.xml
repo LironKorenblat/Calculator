@@ -86,8 +86,20 @@
         android:layout_marginEnd="92dp"
         android:gravity="center"
         android:onClick="restart"
-        android:text="AC"
+        android:text="ON"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etn"
+        android:layout_width="147dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="enter number"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
