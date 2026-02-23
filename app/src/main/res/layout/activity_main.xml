@@ -7,18 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txt"
-        android:layout_width="350dp"
-        android:layout_height="86dp"
-        android:gravity="center"
-        android:textSize="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.053" />
-
     <Button
         android:id="@+id/mul"
         android:layout_width="100dp"
@@ -92,11 +80,12 @@
 
     <EditText
         android:id="@+id/etn"
-        android:layout_width="147dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="120dp"
+        android:layout_width="351dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
-        android:hint="enter number"
+        android:gravity="center"
+        android:hint="click &quot;on&quot; to start"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
